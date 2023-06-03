@@ -1,946 +1,433 @@
 export const ProjectData = [
     {
-        title : "ASSEMBLY MC",
+        title : "ASSEMBLY MACHINE",
         details : [
-    
             {
-                title:'ArmatureBallcaulkingPMP',
-                img:'1.ASSEMBLY MC/ArmatureBallcaulkingPMP.jpg',
-            },    
+                title:'ARMATURE BALL CAULKING',
+                img:['1.ASSEMBLY MC/1. ARMATURE BALL CAULKING.jpg','1.ASSEMBLY MC/1. component image.jpg'],
+                client:'PMP AUTOCOMPONENTS',
+            },
             {
-                title:'ArmatureBallsPressPMP',
-                img:'1.ASSEMBLY MC/ArmatureBallsPressPMP.jpg',
-            },    
+                title:'BEARING PRESS',
+                img:['1.ASSEMBLY MC/2. BEARING PRESS.jpg'],
+                client:'PMP AUTOCOMPONENTS',
+            },
             {
-                title:'BearingPresPMP',
-                img:'1.ASSEMBLY MC/BearingPresPMP.jpg',
-            },    
+                title:'COMMUTATOR PRESS',
+                img:['1.ASSEMBLY MC/3. COMMUTATOR PRESS.jpg'],
+                client:'PMP AUTOCOMPONENTS',
+            },
             {
-                title:'CommutatorPressPMP',
-                img:'1.ASSEMBLY MC/CommutatorPressPMP.jpg',
-            },    
+                title:'SERVO PRESS',
+                img:['1.ASSEMBLY MC/4. SERVO PRESS.jpg'],
+                client:'VARROC ENGINEERING LTD',
+            },
             {
-                title:'Danfoss',
-                img:'1.ASSEMBLY MC/Danfoss-2021.jpeg',
-            },    
-            {
-                title:'LAPL',
-                img:'1.ASSEMBLY MC/LAPL-3TON-PRESS.jpeg',
-            },    
-            {
-                title:'LucasPresses',
-                img:'1.ASSEMBLY MC/LucasPresses.jpg',
-            },    
-            {
-                title:'Prabha',
-                img:'1.ASSEMBLY MC/Prabha-Knurling.jpg',
-            },    
-            {
-                title:'servo',
-                img:'1.ASSEMBLY MC/servo-press-CRI.jpg',
-            },    
-            {
-                title:'ServoPressVarroc',
-                img:'1.ASSEMBLY MC/ServoPressVarroc.jpg',
-            },    
-            {
-                title:'ShaftCorePressPMP',
-                img:'1.ASSEMBLY MC/ShaftCorePressPMP.jpg',
-            },    
-            {
-                title:'Taigenpresses',
-                img:'1.ASSEMBLY MC/Taigenpresses.JPG',
-            },    
-            {
-                title:'TwistingmachineCOMSTAR',
-                img:'1.ASSEMBLY MC/TwistingmachineCOMSTAR.JPG',
-            },    
-               
+                title:'AIR HYDRO & HYDRO PNEUMATIC PRESSES',
+                img:['1.ASSEMBLY MC/5. AIR HYDRO & hYDRO PNEUMATIC PRESSES.jpg'],
+                client:'LUCAS TVS',
+            },
         ],
     },
     {
         title : "TEST RIG EQUIPMENT",
         details : [
-
             {
-                title:'Alternatorperformance',
-                img:'2.TEST RIG EQUIPMENT/Alternatorperformance.jpg',
+                title:'ALTERNATOR PERFORMANCE TEST RIG',
+                img:['2.TEST RIG EQUIPMENT/1. ALTERNATOR PERFORMANCE.jpg','2.TEST RIG EQUIPMENT/1. component image.jpg'],
+                client:'LUCAS TVS',
             },
             {
-                title:'ArmatureFlingtestrigPanalfa',
-                img:'2.TEST RIG EQUIPMENT/ArmatureFlingtestrigPanalfa.jpg',
+                title:'ARMATURE TEST RIG',
+                img:['2.TEST RIG EQUIPMENT/2. ARMATURE TEST RIG.jpg','2.TEST RIG EQUIPMENT/2. component img.jpg'],
+                client:'TAIGENE',
             },
             {
-                title:'Armaturetestirig',
-                img:'2.TEST RIG EQUIPMENT/Armaturetestirig-MICO.jpg',
+                title:'STATOR TESTING',
+                img:['2.TEST RIG EQUIPMENT/3. STATOR TESTING.jpg','2.TEST RIG EQUIPMENT/3. component img.png'],
+                client:'LUCAS TVS',
             },
             {
-                title:'Armaturetestrig',
-                img:'2.TEST RIG EQUIPMENT/Armaturetestrig-Igarashi.jpg',
+                title:'HUB MOTOR PERFORMANCE',
+                img:['2.TEST RIG EQUIPMENT/4. HUB MOTOR PERFORMANCE.jpg','2.TEST RIG EQUIPMENT/4. component image.jpg'],
+                client:'LUCAS TVS',
             },
             {
-                title:'ArmaturetestrigLucas',
-                img:'2.TEST RIG EQUIPMENT/ArmaturetestrigLucas.jpg',
-            },
-            {
-                title:'Armaturetestrig',
-                img:'2.TEST RIG EQUIPMENT/Armaturetestrig-PMP.jpg',
-            },
-            {
-                title:'Armaturetestrig',
-                img:'2.TEST RIG EQUIPMENT/Armaturetestrig-Taigene.jpg',
-            },
-            {
-                title:'ATUL Auto - Magneto perf',
-                img:'2.TEST RIG EQUIPMENT/ATUL Auto - Magneto perf.png',
-            },
-            {
-                title:'Brush Endurance',
-                img:'2.TEST RIG EQUIPMENT/Brush Endurance.png',
-            },
-            {
-                title:'BURN IN Test- LTVS-2018',
-                img:'2.TEST RIG EQUIPMENT/BURN IN Test- LTVS-2018.jpg',
+                title:'ELECTRONIC POWER STEERING TEST RIG',
+                img:['2.TEST RIG EQUIPMENT/5. EPS TEST RIG.png','2.TEST RIG EQUIPMENT/5. component image.jpg'],
+                client:'RANE MADRAS LTD',
             },
             {
                 title:'EPS BACK EMF',
-                img:'2.TEST RIG EQUIPMENT/EPS BACK EMF.jpeg',
+                img:['2.TEST RIG EQUIPMENT/6. EPS BACK EMF.jpeg'],
+                client:'LUCAS TVS',
             },
             {
-                title:'EPS BACK EMF-2021,LTVS,Pondy',
-                img:'2.TEST RIG EQUIPMENT/EPS BACK EMF-2021,LTVS,Pondy.jpeg',
+                title:'COGGING MACHINE',
+                img:['2.TEST RIG EQUIPMENT/7. COGGING MACHINE.jpeg'],
+                client:'LUCAS TVS',
             },
             {
-                title:'EPS- Cogging mc,LTVS,PONDY',
-                img:'2.TEST RIG EQUIPMENT/EPS- Cogging mc,LTVS,PONDY.jpeg',
+                title:'2.TEST RIG EQUIPMENT/POWER WINDOW DURABILITY TEST RIG',
+                img:['2.TEST RIG EQUIPMENT/8. POWER WINDOW DURABILITY TEST RIG.jpg'],
+                client:'BOSCH',
             },
             {
-                title:'EPS- RANE MADRAS',
-                img:'2.TEST RIG EQUIPMENT/EPS- RANE MADRAS.png',
+                title:'WIPER PERFORMANCE',
+                img:['2.TEST RIG EQUIPMENT/9. WIPER PERFORMANCE.jpg'],
+                client:'LUCAS',
             },
             {
-                title:'EPS-PERFORMANCE- 2021,LTVS,Pondy',
-                img:'2.TEST RIG EQUIPMENT/EPS-PERFORMANCE- 2021,LTVS,Pondy.jpeg',
+                title:'STARTER PERFORMANCE TEST RIG',
+                img:['2.TEST RIG EQUIPMENT/10. STARTER PERFORMANCE.jpg','2.TEST RIG EQUIPMENT/10. component image.jpg'],
+                client:'BAJAJ AUTO LTD',
             },
             {
-                title:'ETCMotorperformanceIgarashi',
-                img:'2.TEST RIG EQUIPMENT/ETCMotorperformanceIgarashi.jpg',
+                title:'UNIVERSAL MOTOR PERFORMANCE TEST RIG',
+                img:['2.TEST RIG EQUIPMENT/11. UNIVERSAL MOTOR PERFORMANCE.jpg','2.TEST RIG EQUIPMENT/11. component image.jpg'],
+                client:'LUCAS TVS-PONDY',
             },
             {
-                title:'HandleBarEndurance',
-                img:'2.TEST RIG EQUIPMENT/HandleBarEndurance.jpg',
+                title:'RECTIFIER TEST RIG',
+                img:['2.TEST RIG EQUIPMENT/12. RECTIFIER TEST RIG.jpg','2.TEST RIG EQUIPMENT/12.component image01.jpg','2.TEST RIG EQUIPMENT/12.component image.jpg'],
+                client:'DENSO',
             },
-            {
-                title:'HandleBarEnduranceTVSMotors',
-                img:'2.TEST RIG EQUIPMENT/HandleBarEnduranceTVSMotors.jpg',
-            },
-            {
-                title:'HUB MOTOR PERFORMANCE -LTVS PONDY-2021',
-                img:'2.TEST RIG EQUIPMENT/HUB MOTOR PERFORMANCE -LTVS PONDY-2021.jpg',
-            },
-            {
-                title:'LAPL-STARTER PERF- 2021',
-                img:'2.TEST RIG EQUIPMENT/LAPL-STARTER PERF- 2021.jpg',
-            },
-            {
-                title:'Magneto Perf',
-                img:'2.TEST RIG EQUIPMENT/Magneto Perf.png',
-            },
-            {
-                title:'Magnetovarroc1',
-                img:'2.TEST RIG EQUIPMENT/Magnetovarroc1.JPG',
-            },
-            {
-                title:'MagnetPushOffTestrigLucas',
-                img:'2.TEST RIG EQUIPMENT/MagnetPushOffTestrigLucas.jpg',
-            },
-            {
-                title:'Map sensor',
-                img:'2.TEST RIG EQUIPMENT/Map sensor.png',
-            },
-            {
-                title:'Minda - Brush Bedding spm - 2017',
-                img:'2.TEST RIG EQUIPMENT/Minda - Brush Bedding spm - 2017.jpg',
-            },
-            {
-                title:'PowerwindowdurabilityBoschRBDI',
-                img:'2.TEST RIG EQUIPMENT/PowerwindowdurabilityBoschRBDI.jpg',
-            },
-            {
-                title:'Prabha engg - INWALL MOTOR PERF- 2020',
-                img:'2.TEST RIG EQUIPMENT/Prabha engg - INWALL MOTOR PERF- 2020.jpg',
-            },
-            {
-                title:'Prabha engg- wiping angle checking-2017',
-                img:'2.TEST RIG EQUIPMENT/Prabha engg- wiping angle checking-2017.jpg',
-            },
-            {
-                title:'RANE MADRAS  - EPS- 2017',
-                img:'2.TEST RIG EQUIPMENT/RANE MADRAS  - EPS- 2017.png',
-            },
-            {
-                title:'RectifiertestrigDENSO',
-                img:'2.TEST RIG EQUIPMENT/RectifiertestrigDENSO.jpg',
-            },
-            {
-                title:'RectifiertestrigLucasPLC',
-                img:'2.TEST RIG EQUIPMENT/RectifiertestrigLucasPLC.jpg',
-            },
-            {
-                title:'RectifiertestrigPLCLucas1',
-                img:'2.TEST RIG EQUIPMENT/RectifiertestrigPLCLucas1.JPG',
-            },
-            {
-                title:'RotortestrigLucasPLC',
-                img:'2.TEST RIG EQUIPMENT/RotortestrigLucasPLC.jpg',
-            },
-            {
-                title:'RotortestrigPCLucas',
-                img:'2.TEST RIG EQUIPMENT/RotortestrigPCLucas.jpg',
-            },
-            {
-                title:'SANCO-ALTERNATOR PERF-2020',
-                img:'2.TEST RIG EQUIPMENT/SANCO-ALTERNATOR PERF-2020.jpg',
-            },
-            {
-                title:'StarterEndurance',
-                img:'2.TEST RIG EQUIPMENT/StarterEndurance.jpg',
-            },
-            {
-                title:'Starterperfbesoto',
-                img:'2.TEST RIG EQUIPMENT/Starterperfbesoto.JPG',
-            },
-            {
-                title:'StarterPerformanceBajaj',
-                img:'2.TEST RIG EQUIPMENT/StarterPerformanceBajaj- 2009.jpg',
-            },
-            {
-                title:'Starterperfvarroc1',
-                img:'2.TEST RIG EQUIPMENT/Starterperfvarroc1.JPG',
-            },
-            {
-                title:'Statorhealthtestrig',
-                img:'2.TEST RIG EQUIPMENT/Statorhealthtestrig.jpg',
-            },
-            {
-                title:'StatortestrigLucas',
-                img:'2.TEST RIG EQUIPMENT/StatortestrigLucas.jpg',
-            },
-            {
-                title:'StatortestrigLucasPLC',
-                img:'2.TEST RIG EQUIPMENT/StatortestrigLucasPLC.jpg',
-            },
-            {
-                title:'StatortestrigPCLucas',
-                img:'2.TEST RIG EQUIPMENT/StatortestrigPCLucas.jpg',
-            },
-            {
-                title:'UCAL Motor perf - 2019',
-                img:'2.TEST RIG EQUIPMENT/UCAL Motor perf - 2019.jpg',
-            },
-            {
-                title:'UNIVERSAL MOTOR PERF- 2020',
-                img:'2.TEST RIG EQUIPMENT/UNIVERSAL MOTOR PERF- 2020.jpg',
-            },
-            {
-                title:'Wiper motor perf',
-                img:'2.TEST RIG EQUIPMENT/Wiper motor perf.png',
-            },
-            {
-                title:'WIPER MOTOR PERF-Almighty- 2015',
-                img:'2.TEST RIG EQUIPMENT/WIPER MOTOR PERF-Almighty- 2015.jpg',
-            },
-            {
-                title:'Wiper Perf 036',
-                img:'2.TEST RIG EQUIPMENT/Wiper Perf 036.jpg',
-            },
-            {
-                title:'Wiper performanceBajajAuto',
-                img:'2.TEST RIG EQUIPMENT/Wiper performanceBajajAuto.jpg',
-            },
-            {
-                title:'WiperenduranceLucas',
-                img:'2.TEST RIG EQUIPMENT/WiperenduranceLucas.jpg',
-            },
-            {
-                title:'WiperPerformanceLucas',
-                img:'2.TEST RIG EQUIPMENT/WiperPerformanceLucas.jpg',
-            },
-
         ],
     },
     {
         title : "CONVEYORIZED OVENS",
         details : [
-
             {
-                title:'2',
-                img:'3.CONVEYORIZED OVENS/2. Adhesivecuring Oven Denso.JPG',
+                title:'STATOR AND ROTOR TRICKLE VARNISH PLANT',
+                img:['3.CONVEYORIZED OVENS/1. STATOR & ROTOR TRICKLE VARNISH PLANT.png','3.CONVEYORIZED OVENS/1. component image.jpg'],
+                client:'HONDA',
             },
             {
-                title:'9',
-                img:'3.CONVEYORIZED OVENS/9.png',
+                title:'STATOR VARNISH PLANT',
+                img:['3.CONVEYORIZED OVENS/2. STATOR VARNISH PLANT.JPG'],
+                client:'ABB',
             },
             {
-                title:'ABB',
-                img:'3.CONVEYORIZED OVENS/ABB.JPG',
+                title:'ARMATURE VARNISH PLANT',
+                img:['3.CONVEYORIZED OVENS/3. ARMATURE VARNISH PLANT.jpg','3.CONVEYORIZED OVENS/3. component img.jpg'],
+                client:'PANALFA',
             },
             {
-                title:'ABB1',
-                img:'3.CONVEYORIZED OVENS/ABB1.JPG',
+                title:'ARMATURE TRICKLE VARNISH PLANT',
+                img:['3.CONVEYORIZED OVENS/4. ARMATURE TRICKLE VARNISH PLANT.jpg'],
+                client:'PANALFA',
             },
             {
-                title:'ABB2',
-                img:'3.CONVEYORIZED OVENS/ABB2.JPG',
+                title:'ADHESIVE CURING OVEN',
+                img:['3.CONVEYORIZED OVENS/5. ADHESIVE CURING OVEN.JPG'],
+                client:'DENSO',
             },
-            {
-                title:'ABB3',
-                img:'3.CONVEYORIZED OVENS/ABB3.JPG',
-            },
-            {
-                title:'ABB4',
-                img:'3.CONVEYORIZED OVENS/ABB4.JPG',
-            },
-            {
-                title:'ABB5',
-                img:'3.CONVEYORIZED OVENS/ABB5.JPG',
-            },
-            {
-                title:'AdhesivecuringDenso',
-                img:'3.CONVEYORIZED OVENS/AdhesivecuringDenso.JPG',
-            },
-            {
-                title:'ArmaturevarnishPanalfa',
-                img:'3.CONVEYORIZED OVENS/ArmaturevarnishPanalfa.jpg',
-            },
-            {
-                title:'ArmatureVarnishplantFlash',
-                img:'3.CONVEYORIZED OVENS/ArmatureVarnishplantFlash.jpg',
-            },
-            {
-                title:'ArmaturevarnishVarroc',
-                img:'3.CONVEYORIZED OVENS/ArmaturevarnishVarroc.jpg',
-            },
-            {
-                title:'COMSTAROven1',
-                img:'3.CONVEYORIZED OVENS/COMSTAROven1.JPG',
-            },
-            {
-                title:'Honda',
-                img:'3.CONVEYORIZED OVENS/Honda.png',
-            },
-            {
-                title:'MITTAL (1)',
-                img:'3.CONVEYORIZED OVENS/MITTAL (1).JPG',
-            },
-            {
-                title:'MITTAL (2)',
-                img:'3.CONVEYORIZED OVENS/MITTAL (2).JPG',
-            },
-            {
-                title:'MITTAL (3)',
-                img:'3.CONVEYORIZED OVENS/MITTAL (3).JPG',
-            },
-            {
-                title:'PostCuringOven',
-                img:'3.CONVEYORIZED OVENS/PostCuringOven.JPG',
-            },
-            {
-                title:'PreheatingovenPMP',
-                img:'3.CONVEYORIZED OVENS/PreheatingovenPMP.jpg',
-            },
-            {
-                title:'PreheatingovenYoke',
-                img:'3.CONVEYORIZED OVENS/PreheatingovenYoke.JPG',
-            },
-            {
-                title:'Preheatingpostcuringovens',
-                img:'3.CONVEYORIZED OVENS/Preheatingpostcuringovens.JPG',
-            },
-            {
-                title:'StatorVarnishPlant',
-                img:'3.CONVEYORIZED OVENS/StatorVarnishPlant.jpg',
-            },
-            {
-                title:'TrickleVarnishVarroc',
-                img:'3.CONVEYORIZED OVENS/TrickleVarnishVarroc.jpg',
-            },
-            {
-                title:'VarnishPanalfa',
-                img:'3.CONVEYORIZED OVENS/VarnishPanalfa.jpg',
-            },
-            {
-                title:'VarnishPanalfa2',
-                img:'3.CONVEYORIZED OVENS/VarnishPanalfa2.jpg',
-            },
-            {
-                title:'VarnishPlantFlash',
-                img:'3.CONVEYORIZED OVENS/VarnishPlantFlash.jpg',            
-            },
-
         ],
     },
     {
         title : "CONVEYOR",
         details : [
-
             {
-                title:'Adhesive dispensing conveyor-2020,INVENT',
-                img:'4.CONVEYOR/Adhesive dispensing conveyor-2020,INVENT.jpeg'
+                title:'PUMP ASSEMBLY CONVEYOR',
+                img:['4.CONVEYOR/1. PUMP ASSEMBLY CONVEYOR.jpg'],
+                client:'CRI PUMPS PVT LTD.',
             },
             {
-                title:'Cleaning conveyor-2020,INVENT',
-                img:'4.CONVEYOR/Cleaning conveyor-2020,INVENT.jpeg'
+                title:'STARTER MOTOR ASSEMBLY CONVEYOR',
+                img:['4.CONVEYOR/2. STARTER MOTOR ASSEMBLY.JPG','4.CONVEYOR/2. component img.jpg'],
+                client:'PRESTOLITE ELECTRIC PVT LTD.',
             },
             {
-                title:'CRI PUMP-2016',
-                img:'4.CONVEYOR/CRI PUMP-2016.jpg'
+                title:'PUMP TESTING CONVEYOR',
+                img:['4.CONVEYOR/3. PUMP TESTING CONVEYOR.JPG'],
+                client:'UNNATI PUMPS LTD.',
             },
             {
-                title:'PRESTOLITE ELECTRIC PVT LTD,',
-                img:'4.CONVEYOR/PRESTOLITE ELECTRIC PVT LTD,.JPG'
+                title:'ADHESIVE DISPENSING CONVEYOR',
+                img:['4.CONVEYOR/4. ADHESIVE DISPENSING CONVEYOR.jpeg'],
+                client:'INVENT SOLUTIONS PVT LTD',
             },
             {
-                title:'unnatipump-2020',
-                img:'4.CONVEYOR/unnatipump-2020.JPG'
+                title:'CLEANING  CONVEYOR',
+                img:['4.CONVEYOR/5. CLEANING CONVEYOR.jpeg'],
+                client:'INVENT SOLUTIONS PVT LTD',
             },
-
         ],
     },
     {
-        title : "ASSEMBLY LINE",
+        title : "ASSEMBLY LINES",
         details : [
-
             {
-                title:'4.  6 INCH SUBMERSIBLE MOTOR CONVEYOR ASSEMBLY LINE- KSP PUMPS',
-                img:'5.ASSEMBLY LINES/4.  6 INCH SUBMERSIBLE MOTOR CONVEYOR ASSEMBLY LINE- KSP PUMPS.jpg',
+                title:'ARMATURE ASSEMBLY LINE',
+                img:['5.ASSEMBLY LINES/1. ARMATURE ASSEMBLY LINE.JPG','5.ASSEMBLY LINES/1. component img.jpg'],
+                client:'KINETIC ELECTRIC MOTOR',
             },
             {
-                title:'5. PRESTOLITE ELECTRIC PVT LTD,',
-                img:'5.ASSEMBLY LINES/5. PRESTOLITE ELECTRIC PVT LTD,.JPG',
+                title:'BLOWER MOTOR ASSEMBLY LINE',
+                img:['5.ASSEMBLY LINES/2. BLOWER MOTOR ASSEMBLY LINE.JPG','5.ASSEMBLY LINES/2. component image.jpg'],
+                client:'KINETIC ELECTRIC MOTOR',
             },
             {
-                title:'6. OPS LINE - PRICOL ENGEERING PVT LTD',
-                img:'5.ASSEMBLY LINES/6. OPS LINE - PRICOL ENGEERING PVT LTD.jpg',
+                title:'REAR AND COVER ASSEMBLY LINE',
+                img:['5.ASSEMBLY LINES/3. REAR END COVER ASSEMBLY LINE.jpg',],
+                client:'VARROC ENGINEERING LTD.',
             },
             {
-                title:'7. REAR END COVER ASSEMBLY LINE-  VARROC',
-                img:'5.ASSEMBLY LINES/7. REAR END COVER ASSEMBLY LINE-  VARROC.jpg',
+                title:'BENDIX DRIVE LINE',
+                img:['5.ASSEMBLY LINES/4. BENDIX DRIVE LINE.JPG','5.ASSEMBLY LINES/4. component image.jpg'],
+                client:'LUCAS TVS',
             },
             {
-                title:'8.BlowerMotorassyline',
-                img:'5.ASSEMBLY LINES/8.BlowerMotorassyline - Copy.JPG',
+                title:'STARTER MOTOR ASSEMBLY LINE',
+                img:['5.ASSEMBLY LINES/5. STARTER MOTOR ASSEMBLY LINE.jpg'],
+                client:'LAPL AUTOMOTIVE PVT LTD.',
             },
             {
-                title:'8.BlowerMotorassyline',
-                img:'5.ASSEMBLY LINES/8.BlowerMotorassyline.JPG',
+                title:'PUMP ASSEMBLY LINE',
+                img:['5.ASSEMBLY LINES/6. PUMP ASSEMBLY LINE.jpg'],
+                client:'CRI PUMPS PVT LTD.',
             },
             {
-                title:'12. V6 MOTOR ASSEMBLY LINE',
-                img:'5.ASSEMBLY LINES/12. V6 MOTOR ASSEMBLY LINE.jpg',
+                title:'6 INCH SUBMERSIBLE MOTOR CONVEYOR ASSEMBLY LINE',
+                img:['5.ASSEMBLY LINES/7.  6 INCH SUBMERSIBLE MOTOR CONVEYOR ASSEMBLY LINE- KSP PUMPS.jpg','5.ASSEMBLY LINES/7. component image.jpg'],
+                client:'KSB PUMPS LTD.',
             },
             {
-                title:'BALTEK-ARMATURE',
-                img:'5.ASSEMBLY LINES/BALTEK-ARMATURE.jpg',
+                title:'V6 MOTOR ASSEMBLY LINE',
+                img:['5.ASSEMBLY LINES/8. V6 MOTOR ASSEMBLY LINE.jpg'],
+                client:'UNNATI PUMPS PVT LTD',
             },
-            {
-                title:'blowerarmatureassyline',
-                img:'5.ASSEMBLY LINES/blowerarmatureassyline.JPG',
-            },
-            {
-                title:'CRI',
-                img:'5.ASSEMBLY LINES/CRI.jpg',
-            },
-            {
-                title:'CRI1',
-                img:'5.ASSEMBLY LINES/CRI1.jpg',
-            },
-            {
-                title:'CRI11',
-                img:'5.ASSEMBLY LINES/CRI11.jpg',
-            },
-            {
-                title:'Drive line',
-                img:'5.ASSEMBLY LINES/Drive line.JPG',
-            },
-            {
-                title:'DSC_0146',
-                img:'5.ASSEMBLY LINES/DSC_0146.JPG',
-            },
-            {
-                title:'LAPL1-ARMATURE',
-                img:'5.ASSEMBLY LINES/LAPL1-ARMATURE.jpg',
-            },
-            {
-                title:'LAPL-ARMATURE12',
-                img:'5.ASSEMBLY LINES/LAPL-ARMATURE12.jpg',
-            },
-            {
-                title:'LAPL-MOTOR LINE',
-                img:'5.ASSEMBLY LINES/LAPL-MOTOR LINE.jpg',
-            },
-            {
-                title:'M1Line1',
-                img:'5.ASSEMBLY LINES/M1Line1.JPG',
-            },
-            {
-                title:'M1Line2',
-                img:'5.ASSEMBLY LINES/M1Line2.JPG',
-            },
-            {
-                title:'M1Line3',
-                img:'5.ASSEMBLY LINES/M1Line3.JPG',
-            },
-            {
-                title:'Motor line 1',
-                img:'5.ASSEMBLY LINES/Motor line 1.JPG',
-            },
-            {
-                title:'Motor line',
-                img:'5.ASSEMBLY LINES/Motor line.JPG',
-            },
-            {
-                title:'Prabha Engg',
-                img:'5.ASSEMBLY LINES/Prabha Engg.jpg',
-            },
-            {
-                title:'Prabha Engg',
-                img:'5.ASSEMBLY LINES/Prabha Engg.png',
-            },
-            {
-                title:'Prabha Engg1',
-                img:'5.ASSEMBLY LINES/Prabha Engg1.jpg',
-            },
-            {
-                title:'Prabha Engg11',
-                img:'5.ASSEMBLY LINES/Prabha Engg11.jpg',
-            },
-            {
-                title:'Starterassyline2',
-                img:'5.ASSEMBLY LINES/Starterassyline2.JPG',
-            },
-            {
-                title:'STATOR AND ROTOR ASSEMBLY -INVENT',
-                img:'5.ASSEMBLY LINES/STATOR AND ROTOR ASSEMBLY -INVENT.JPG',
-            },
-            {
-                title:'STATOR MOTOR LINE- YAMAHA',
-                img:'5.ASSEMBLY LINES/STATOR MOTOR LINE- YAMAHA.JPG',
-            },
-            {
-                title:'Varroc line machine',
-                img:'5.ASSEMBLY LINES/Varroc line machine.JPG',
-            },
-            {
-                title:'Wiper motor perf',
-                img:'5.ASSEMBLY LINES/Wiper motor perf.png',
-            },
-            {
-                title:'Wiper Perf',
-                img:'5.ASSEMBLY LINES/Wiper Perf.jpg',
-            },
-            {
-                title:'Wiper Performance Lucas',
-                img:'5.ASSEMBLY LINES/Wiper Performance Lucas.jpg',
-            },
-            {
-                title:'wiper performance',
-                img:'5.ASSEMBLY LINES/wiper performance.jpg',
-            },
-            {
-                title:'Wiperarmatureassyline',
-                img:'5.ASSEMBLY LINES/Wiperarmatureassyline.jpg',
-            },
-            {
-                title:'WiperenduranceLucas',
-                img:'5.ASSEMBLY LINES/WiperenduranceLucas.jpg',
-            },
-            {
-                title:'WiperperformanceBajajAuto',
-                img:'5.ASSEMBLY LINES/WiperperformanceBajajAuto.jpg',
-            },
-
         ],
     },
     {
         title : "MAGNETIZERS",
         details : [
-
             {
-                title:'4 pole magnetizer- LTVS ,pondy',
-                img:'6.MAGNETIZERS/4 pole magnetizer- LTVS ,pondy.jpg',
+                title:'FOUR POLE MAGNETIZER',
+                img:['6.MAGNETIZERS/1. FOUR POLE MAGNETIZER.jpg','6.MAGNETIZERS/1.component image.jpg'],
+                client:'LUCAS TVS-PONDY',
             },
             {
-                title:'4 pole magnetizer,LTVS,Pondy',
-                img:'6.MAGNETIZERS/4 pole magnetizer,LTVS,Pondy.jpg',
+                title:'SIX POLE MAGNETIZER',
+                img:['6.MAGNETIZERS/2. SIX POLE MAGNETIZER.jpg'],
+                client:'LUCAS TVS-PADI',
             },
             {
-                title:'6 Pole amgnetizer - LTVS,Padi',
-                img:'6.MAGNETIZERS/6 Pole amgnetizer - LTVS,Padi.jpg',
+                title:'MAGNETIZER FOR WIPER MOTOR',
+                img:['6.MAGNETIZERS/3. MAGNETIZER FOR WIPER MOTOR.jpg','6.MAGNETIZERS/3. component image.jpg'],
+                client:'UB ASSOCIATES',
             },
             {
-                title:'6 pole magnetizer-LTVS,Pondy',
-                img:'6.MAGNETIZERS/6 pole magnetizer-LTVS,Pondy.jpg',
+                title:'MAGNETIZER FOR MAGNETO',
+                img:['6.MAGNETIZERS/4. MAGNETIZER FOE MAGNETO.jpg','6.MAGNETIZERS/4.component img.jpg'],
+                client:'LAPL AUTOMOTIVE PVT LTD.',
             },
             {
-                title:'12 pole magnetizer - JSM Magnetizer',
-                img:'6.MAGNETIZERS/12 pole magnetizer - JSM Magnetizer.jpg',
+                title:'DEMAGNETIZER',
+                img:['6.MAGNETIZERS/5. DEMAGNETIZER.JPG'],
+                client:'LUCAS TVS',
             },
             {
-                title:'Demagnetizer',
-                img:'6.MAGNETIZERS/Demagnetizer.JPG',
-            },
-            {
-                title:'Four pole  magnetizer LTVS,Pondy',
-                img:'6.MAGNETIZERS/Four pole  magnetizer LTVS,Pondy.jpg',
-            },
-            {
-                title:'',
-                img:'6.MAGNETIZERS/LAPL-Magnetizer.jpg',
-            },
-            {
-                title:'multipurpose magnetizer-LTVS Pondy',
-                img:'6.MAGNETIZERS/multipurpose magnetizer-LTVS Pody.jpg',
-            },
-            {
-                title:'Roots magnetizer',
-                img:'6.MAGNETIZERS/Roots magnetizer.jpg',
-            },
-            {
-                title:'sm53 magnetizer',
-                img:'6.MAGNETIZERS/sm53 magnetizer.jpg',
-            },
-            {
-                title:'UB magnetizer',
-                img:'6.MAGNETIZERS/UB magnetizer.jpg',
+                title:'SSM53 MAGNETIZER',
+                img:['6.MAGNETIZERS/6. SM53 MAGNETIZER.jpg','6.MAGNETIZERS/6. component img.jpg'],
+                client:'LUCAS TVS',
             },
 
         ],
     },
     {
-        title : "BALANCING CORRECTION MC",
+        title : "BALANCING CORRECTION MACHINE",
         details : [
-
             {
-                title:'Armature milling mc',
-                img:'7.BALANCING CORRECTION MC/Armature milling mc.jpg',
+                title:'ARMATURE MILLING MACHINE',
+                img:['7.BALANCING CORRECTION MC/1. ARMATURE MILLING MACHINE.jpg','7.BALANCING CORRECTION MC/1. component image.jpg'],
+                client:'',
             },
             {
-                title:'Armaturemilling',
-                img:'7.BALANCING CORRECTION MC/Armaturemilling.jpg',
+                title:'AUTOMATIC UNBALANCE CORRECTION DRILLING MACHINE',
+                img:['7.BALANCING CORRECTION MC/2. UNBALANCE CORRECTION DRILLING MC.jpg'],
+                client:'DENSO INDIA LTD.',
             },
             {
-                title:'DENSO INDIA PVT LTD',
-                img:'7.BALANCING CORRECTION MC/DENSO INDIA PVT LTD.jpg',
+                title:'FAN BALANCING MACHINE',
+                img:['7.BALANCING CORRECTION MC/3.FAN BALANCING MC.JPG'],
+                client:'VISTEON ELECTRONICS INDIA LTD',
             },
-            {
-                title:'DENSO',
-                img:'7.BALANCING CORRECTION MC/DENSO.jpg',
-            },
-            {
-                title:'DENSO',
-                img:'7.BALANCING CORRECTION MC/DENSO.png',
-            },
-            {
-                title:'FAN BALANCING MC-VISTEON CHENNAI-2016',
-                img:'7.BALANCING CORRECTION MC/FAN BALANCING MC-VISTEON CHENNAI-2016.JPG',
-            },
-            {
-                title:'Renault',
-                img:'7.BALANCING CORRECTION MC/Renault.jpg',
-            },    
-
         ],
     },
     {
-        title : "SPECIAL MC",
+        title : "SPECIAL PURPOSE MACHINES",
         details : [
-
             {
-                title:'CUMI-Servo Press',
-                img:'8. SPECIAL MC/CUMI-Servo Press.jpg',
+                title:'MAGNET INSERTION AND RIVETING SPM',
+                img:['8. SPECIAL MC/1. MAGNET INSERTION & RIVETING SPM.png','8. SPECIAL MC/1.Component image.png'],
+                client:'LUCAS TVS - PONDY',
             },
             {
-                title:'DANFOSS-2021',
-                img:'8. SPECIAL MC/DANFOSS-2021.jpeg',
+                title:'DOUBLE ACTING 4 TON SERVO PRESS',
+                img:['8. SPECIAL MC/2. DOUBLE ACTING 4T SERVO PRESS.jpg','8. SPECIAL MC/2. component image.jpg'],
+                client:'WENDT (INDIA) LTD.',
             },
             {
-                title:'lacing- 011',
-                img:'8. SPECIAL MC/lacing- 011.jpg',
+                title:'SERVO PRESS FOR GRINDING WHEEL SEGMENT',
+                img:['8. SPECIAL MC/3.SERVO PRESS FOR GRINDING WHEEL SEGMENT.jpg','8. SPECIAL MC/3. component image.jpg'],
+                client:'CUMI',
             },
             {
-                title:'Magnet Insertion  - LTVS',
-                img:'8. SPECIAL MC/Magnet Insertion  - LTVS.png',
+                title:'PIN LACING',
+                img:['8. SPECIAL MC/4. PIN LACING.jpg'],
+                client:'COMSTAR AUTOMOTIVE TECHNOLOGIES',
             },
             {
-                title:'Paper Insertion 001',
-                img:'8. SPECIAL MC/Paper Insertion 001.jpg',
-            },
-            {
-                title:'Paper Insertion 016',
-                img:'8. SPECIAL MC/Paper Insertion 016.jpg',
-            },
-            {
-                title:'WENT-SERVO PRESS',
-                img:'8. SPECIAL MC/WENT-SERVO PRESS.jpg',
-            },
-            {
-                title:'Winding Machine',
-                img:'8. SPECIAL MC/Winding Machine.png',
+                title:'AUTOMATIC STATOR WINDING MACHINE',
+                img:['8. SPECIAL MC/5. STATOR WINDING MACHINE.png','8. SPECIAL MC/5. component image.png'],
+                client:'DYNAMIC MOTORS',
             },
 
+            {
+                title:'TAPPING MACHINE',
+                img:['8. SPECIAL MC/6. TAPPING MACHINE.jpg'],
+                client:'ROTOMAG',
+            },
+            {
+                title:'SERVO PRESS',
+                img:['8. SPECIAL MC/7. SERVO PRESS.jpeg'],
+                client:'DANFOSS',
+            },
         ],
     },
     {
-        title : "LEAK TESTING MC",
+        title : "LEAK TESTING MACHINE",
         details : [
-
             {
-                title:'2 LEAK TESTING MC',
-                img:'9.LEAK TESTING MC/2.jpg',
+                title:'VACCUM LEAK TEST RIG',
+                img:['9.LEAK TESTING MC/1. VACCUM LEAK TEST RIG.jpg'],
+                client:'LUCAS TVS',
             },
             {
-                title:'3 LEAK TESTING MC',
-                img:'9.LEAK TESTING MC/3.jpg',
+                title:'JET CALIBRATION',
+                img:['9.LEAK TESTING MC/2. JET CALIBRATION.jpg'],
+                client:'UCAL FUEL SYSTEMS',
             },
-            {
-                title:'14 LEAK TESTING MC',
-                img:'9.LEAK TESTING MC/14.png',
-            },
-            {
-                title:'jet calibration 1',
-                img:'9.LEAK TESTING MC/jet calibration 1.jpg',
-            },
-            {
-                title:'JET Calibration',
-                img:'9.LEAK TESTING MC/JET Calibration.jpg',
-            },
-            {
-                title:'VaccumLeakTestRigLucas',
-                img:'9.LEAK TESTING MC/VaccumLeakTestRigLucas.jpg',
-            },
-
         ],
     },
     {
         title : "NOISE BOOTH",
         details : [
-
             {
-                title:'',
-                img:'10. NOISE BOOTH/DY Auto -2020,Noise booth.jpg',
+                title:'NOISE VIBRATION TESTING MACHINE',
+                img:['10. NOISE BOOTH/1.NOISE VIBRATION TESTING MACHINE.jpg'],
+                client:'DY AUTO INDIA PVT LTD.',
             },
             {
-                title:'',
-                img:'10. NOISE BOOTH/DY Auto -2020.jpg',
+                title:'NOISE BOOTH WITH CONVEYOR',
+                img:['10. NOISE BOOTH/2. NOISE BOOTH WITH CONVEYOR.jpg'],
+                client:'NEXTEER ELECTRIC PVT LTD.',
             },
             {
-                title:'',
-                img:'10. NOISE BOOTH/nexteer automotive india private limited,chennai-2020.jpg',
+                title:'NOISE BOOTH WITHOUT CONVEYOR',
+                img:['10. NOISE BOOTH/3. NOISE BOOTH WITHOUT CONVEYOR.jpg'],
+                client:'LUCAS TVS',
             },
-            {
-                title:'',
-                img:'10. NOISE BOOTH/Noise booth-LTVS,Pondy- 2021.jpg',
-            },
-                
         ],
     },
     {
         title : "EV RELATED PROJECTS",
         details : [
+            {
+                title:'BLDC STATOR AND ROTOR ASSEMBLY',
+                img:['11. E.V RELATED PROJECTS/1. STATOR AND ROTOR ASSEMBLY -INVENT.JPG','11. E.V RELATED PROJECTS/1. component image.png'],
+                client:'INVENT SOLUTIONS PVT LTD.',
+            },
+            {
+                title:'PMSM CALIBRATION TEST RIG',
+                img:['11. E.V RELATED PROJECTS/2. PMSM MOTOR CALIBRATION TEST RIG.jpg','11. E.V RELATED PROJECTS/2. component image.jpg'],
+                client:'LUCAS TVS PVT LTD.',
+            },
+            {
+                title:'ELECTRIC MOTOR ASSEMBLY LINE',
+                img:['11. E.V RELATED PROJECTS/3. E-MOTOR ASSEMBLY LINE-  BOSCH.jpg','11. E.V RELATED PROJECTS/3. component image.jpg'],
+                client:'BOSCH INDIA LTD.',
+            },
+            {
+                title:'HUB MOTOR PERFORMANCE TEST RIG',
+                img:['11. E.V RELATED PROJECTS/4. HUB MOTOR PERFORMANCE TEST RIG.jpg','11. E.V RELATED PROJECTS/4. component image.jpg'],
+                client:'LUCAS TVS PVT LTD.',
+            },
 
             {
-                title:'1.STATOR AND ROTOR ASSEMBLY -INVENT',
-                img:'11. E.V RELATED PROJECTS/1.STATOR AND ROTOR ASSEMBLY -INVENT.JPG',
+                title:'HUB MOTOR ASSEMBLY LINE',
+                img:['11. E.V RELATED PROJECTS/5. HUB MOTOR ASSEMBLY LINE.jpg'],
+                client:'SEG AUTOMOTIVE',
             },
             {
-                title:'2)  Hub motor  assembly line',
-                img:'11. E.V RELATED PROJECTS/2)  Hub motor  assembly line.jpg',
+                title:'EPS MOTOR ASSEMBLY LINE',
+                img:['11. E.V RELATED PROJECTS/6. EPS MOTOR ASSEMBLY LINE.jpg','11. E.V RELATED PROJECTS/6. component image.png'],
+                client:'LUCAS TVS PVT LTD.',
             },
             {
-                title:'3)HUB Motor perf',
-                img:'11. E.V RELATED PROJECTS/3)HUB Motor perf.jpg',
+                title:'EPS MOTOR PERFORMANCE TEST RIG',
+                img:['11. E.V RELATED PROJECTS/7. EPS MOTOR PERFORMANCE TEST RIG.jpeg'],
+                client:'LUCAS TVS PVT LTD.',
             },
             {
-                title:'4) Magnet insertion & Riveting spm',
-                img:'11. E.V RELATED PROJECTS/4) Magnet insertion & Riveting spm.jpg',
+                title:'HUB MOTOR MAGNET INSERTION',
+                img:['11. E.V RELATED PROJECTS/8. HUB MOTOR MAGNET INSERTION.jpeg','11. E.V RELATED PROJECTS/8. component image.jpg'],
+                client:'SEG AUTOMOTIVE',
             },
             {
-                title:'4) Noise booth',
-                img:'11. E.V RELATED PROJECTS/4) Noise booth.jpg',
+                title:'PMSM MAGNET ASSEMBLY SPM',
+                img:['11. E.V RELATED PROJECTS/9. PMSM MAGNET ASSEMBLY SPM.jpeg'],
+                client:'LUCAS TVS',
             },
             {
-                title:'5) Enamel Removal spm',
-                img:'11. E.V RELATED PROJECTS/5) Enamel Removal spm.jpg',
+                title:'PMSM PERFORMANCE TEST RIG',
+                img:['11. E.V RELATED PROJECTS/10. PMSM PERFORMANCE TEST RIG.jpg'],
+                client:'LUCAS TVS',
             },
-            {
-                title:'16 Pole Magnetizer',
-                img:'11. E.V RELATED PROJECTS/16 Pole Magnetizer.jpeg',
-            },
-            {
-                title:'Adhesive dispensing conveyor',
-                img:'11. E.V RELATED PROJECTS/Adhesive dispensing conveyor - Copy.jpeg',
-            },
-            {
-                title:'Adhesive dispensing conveyor',
-                img:'11. E.V RELATED PROJECTS/Adhesive dispensing conveyor.jpeg',
-            },
-            {
-                title:'Back EMF',
-                img:'11. E.V RELATED PROJECTS/Back EMF.jpeg',
-            },
-            {
-                title:'Brush bedding spm',
-                img:'11. E.V RELATED PROJECTS/Brush bedding spm.jpeg',
-            },
-            {
-                title:'Calibration test rig',
-                img:'11. E.V RELATED PROJECTS/Calibration test rig.jpg',
-            },
-            {
-                title:'Cleaning conveyor',
-                img:'11. E.V RELATED PROJECTS/Cleaning conveyor.jpeg',
-            },
-            {
-                title:'COGGING FRICTION & DAMPING',
-                img:'11. E.V RELATED PROJECTS/COGGING FRICTION & DAMPING.jpeg',
-            },
-            {
-                title:'E -MOTOR ASSEMBLY LINE-  BOSCH',
-                img:'11. E.V RELATED PROJECTS/E -MOTOR ASSEMBLY LINE-  BOSCH.jpg',
-            },
-            {
-                title:'Enamel removal table',
-                img:'11. E.V RELATED PROJECTS/Enamel removal table.jpg',
-            },
-            {
-                title:'LINE MACHINE',
-                img:'11. E.V RELATED PROJECTS/LINE MACHINE.JPG',
-            },
-            {
-                title:'magnet push force test',
-                img:'11. E.V RELATED PROJECTS/magnet push force test.jpg',
-            },
-            {
-                title:'Noise booth',
-                img:'11. E.V RELATED PROJECTS/Noise booth.jpg',
-            },
-            {
-                title:'Performance test rig',
-                img:'11. E.V RELATED PROJECTS/Performance test rig.jpeg',
-            },
-            {
-                title:'PERFORMANCE TEST-LTVS',
-                img:'11. E.V RELATED PROJECTS/PERFORMANCE TEST-LTVS.jpg',
-            },
-            {
-                title:'Stator test rig',
-                img:'11. E.V RELATED PROJECTS/Stator test rig.jpeg',
-            },
-            {
-                title:'TRACTION  MOTOR  ROTOR  &  MAGNET  ASSEMBLY SPM',
-                img:'11. E.V RELATED PROJECTS/TRACTION  MOTOR  ROTOR  &  MAGNET  ASSEMBLY SPM.jpeg',
-            },
-            {
-                title:'1) HUB MAGNET INSERTION',
-                img:'11. E.V RELATED PROJECTS/1) HUB MAGNET INSERTION.jpeg',
-            },    
 
         ],
     },
     {
-        title : "PCB",
+        title : "NEW PROJECTS",
         details : [
-
             {
-                title:'Opto Isolator Card ',
-                img:'12.PCB/8.jpg',
+                title:'BELLOW FORMING MACHINE',
+                img:['12.NEW MACHINES/1. bellow forming machine.jpg','12.NEW MACHINES/1.component image01.jpg','12.NEW MACHINES/1. component image02.JPG','12.NEW MACHINES/1. component image03.JPG','12.NEW MACHINES/1. component image04.JPG','12.NEW MACHINES/1.component image05.jpg'],
+                client:'DANFOSS',
             },
             {
-                title:'Isolation Amplifer (Eg: Divider 4 :1/Gain 1:00/1:1)',
-                img:'12.PCB/9) isolation amplifier- 4-1.jpg',
+                title:'VARNISHING PLANT',
+                img:['12.NEW MACHINES/2. VARNISHING PLANT.jpg'],
+                client:'BHARAT BIJILEE',
             },
             {
-                title:'Isolation Amplifer (Eg: Divider 4 :1/Gain 1:00/1:1)',
-                img:'12.PCB/9.1) isolation amplifier- 1-100.jpg',
+                title:'ARV & SENSOR TEST RIG',
+                img:['12.NEW MACHINES/3. ARV & SENSOR TEST RIG.jpg'],
+                client:'ALBONAIR',
             },
             {
-                title:'Isolation Amplifer (Eg: Divider 4 :1/Gain 1:00/1:1)',
-                img:'12.PCB/9.2)  isolation amplifier- 1-1.jpg',
+                title:'MAGNETIZER & MAGNET INSERTION',
+                img:['12.NEW MACHINES/4. MAGNETIZER & MAGNET INSERTION.jpg','12.NEW MACHINES/4. component image.jpg'],
+                client:'LUCAS TVS-REWARI',
             },
             {
-                title:'Isolation Amplifer AC:DC (AC Voltage  & AC Current) ',
-                img:'12.PCB/10) AC Voltage.jpg',
+                title:'CORE MOULDING',
+                img:['12.NEW MACHINES/5. CORE MOULDING.jpg'],
+                client:'DANFOSS',
             },
             {
-                title:'Isolation Amplifer AC:DC (AC Voltage  & AC Current) ',
-                img:'12.PCB/10.1) AC Current.jpg',
-            },
-            {
-                title:'Adjustable reference card  ',
-                img:'12.PCB/11.jpg',
-            },
-            {
-                title:'Regulated Power supply 78XX/79XX Series',
-                img:'12.PCB/12.jpg',
-            },
-            {
-                title:'Divider Card ',
-                img:'12.PCB/13.jpg',
-            },
-            {
-                title:'High Speed  Card',
-                img:'12.PCB/14.jpg',
-            },
-            {
-                title:'Solid state relay card',
-                img:'12.PCB/15.jpg',
-            },
-            {
-                title:'Power Supply card ',
-                img:'12.PCB/1)  24V- 5 Amps.jpg',
-            },
-            {
-                title:'Power Supply card ',
-                img:'12.PCB/1.1) 1)  24V- 3 Amps.jpg',
-            },
-            {
-                title:'Relay card ',
-                img:'12.PCB/2)   2 channel.jpg',
-            },
-            {
-                title:'Relay card ',
-                img:'12.PCB/2.1)  4 channel.jpg',
-            },
-            {
-                title:'Relay card ',
-                img:'12.PCB/2.3) 8 channel.jpg',
-            },
-            {
-                title:'Frequency to Voltage converter card  ',
-                img:'12.PCB/3.jpg',
-            },
-            {
-                title:'100mA Current source card  ',
-                img:'12.PCB/4.jpg',
-            },
-            {
-                title:'FRC to Screw Terminal PCB/ D to Screw Terminal PCB  ',
-                img:'12.PCB/5.jpg',
-            },
-            {
-                title:'8 Channel output Driver card',
-                img:'12.PCB/6.) 8 Channel.jpg',
-            },
-            {
-                title:'8 Channel output Driver card',
-                img:'12.PCB/6.1) 4 channel.jpg',
-            },
-            {
-                title:'8 Channel Input Driver card ',
-                img:'12.PCB/7.jpg',
+                title:'WIRING HARNESS',
+                img:['12.NEW MACHINES/6. WIRING HARNESS.jpg'],
+                client:'ALBONAIR INDIA PVT LTD.',
             },
 
         ],
     },
+
+
 ];
+
+
+
+

@@ -29,7 +29,7 @@ function App() {
       <Route path="/project/LeakTesting" element={<ProjectCategory data={ProjectData[8]}></ProjectCategory>} />
       <Route path="/project/NoiceBooth" element={<ProjectCategory data={ProjectData[9]}></ProjectCategory>} />
       <Route path="/project/EVRelatedProjects" element={<ProjectCategory data={ProjectData[10]}></ProjectCategory>} />
-      <Route path="/project/PCB" element={<ProjectCategory data={ProjectData[11]}></ProjectCategory>} />
+      <Route path="/project/NewProjects" element={<ProjectCategory data={ProjectData[11]}></ProjectCategory>} />
 
       <Route path="/contact" element={<Contact></Contact>} />
     </Routes>

@@ -96,7 +96,7 @@ const Working = () => {
 
             <div className=' w-full p-2 md:p-5'>
                 <div className="flex flex-col justify-evenly items-start md:items-center bg-[#e7e9e7] rounded-md shadow-md md:grid md:grid-col-2 gap-2 py-5">
-                    <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[23vh] h-[50px] p-1 rounded col-start-1 col-end-3 ">1.0 Initiate</h1>
+                    <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 ">1.0 Initiate</h1>
 
                     <ol className='text-sm md:text-lg flex flex-col gap-2 md:w-[17vw] p-10' style={{ listStyleType: "dise" }}>
                         <li>Gather Requirements</li>                    
@@ -141,7 +141,7 @@ const Working = () => {
 
             <div className=' w-full p-2 md:p-5'>
                 <div className="flex flex-col justify-evenly items-start md:items-center bg-[#e7e9e7] rounded-md shadow-md md:grid md:grid-col-2 gap-2 py-5">
-                    <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[23vh] h-[50px] p-1 rounded col-start-1 col-end-3 ">2.0 Plans</h1>
+                    <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 ">2.0 Plans</h1>
 
                     <ol className='text-sm md:text-lg flex flex-col gap-2 md:w-[17vw] p-10' style={{ listStyleType: "dise" }}>
                         <li>Plan Scope</li>                    
@@ -204,7 +204,7 @@ const Working = () => {
 
             <div className=' w-full p-2 md:p-5'>
                 <div className="flex flex-col justify-evenly items-start md:items-center bg-[#e7e9e7] rounded-md shadow-md md:grid md:grid-col-2 gap-2 py-5">
-                    <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[23vh] h-[50px] p-1 rounded col-start-1 col-end-3 ">3.0 Execute</h1>
+                    <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 ">3.0 Execute</h1>
 
                     <ol className='text-sm md:text-lg flex flex-col gap-2 md:w-[17vw] p-10' style={{ listStyleType: "dise" }}>
                         <li>Build System</li>                    
@@ -249,7 +249,7 @@ const Working = () => {
 
             <div className=' w-full p-2 md:p-5'>
                 <div className="flex flex-col justify-evenly items-start md:items-center bg-[#e7e9e7] rounded-md shadow-md md:grid md:grid-col-2 gap-2 py-5">
-                    <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[23vh] h-[50px] p-1 rounded col-start-1 col-end-3 ">4.0 Monitor</h1>
+                    <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 ">4.0 Monitor</h1>
 
                     <ol className='text-sm md:text-lg flex flex-col gap-2 md:w-[17vw] p-10' style={{ listStyleType: "dise" }}>
                         <li>Internal Testing</li>                    
@@ -300,7 +300,7 @@ const Working = () => {
 
             <div className=' w-full p-2 md:p-5'>
                 <div className="flex flex-col justify-evenly items-start md:items-center bg-[#e7e9e7] rounded-md shadow-md md:grid md:grid-col-2 gap-2 py-5">
-                <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[23vh] h-[50px] p-1 rounded col-start-1 col-end-3 "> 5.0 Close</h1>
+                <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 "> 5.0 Close</h1>
 
                     <ol className='text-sm md:text-lg flex flex-col gap-2 md:w-[17vw] p-10' style={{ listStyleType: "dise" }}>
                         <li>Installation</li>                    

@@ -1,8 +1,14 @@
 import React from 'react'
 
-const TimelineImages = (data) => {
+const TimelineImages = (images) => {
   return (
-    <div>TimelineImages</div>
+    <div>
+      {
+        images.map((i)=>{
+          
+        })
+      }
+    </div>
   )
 }
 

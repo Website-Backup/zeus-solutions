@@ -6,7 +6,7 @@ const About = () => {
   const Image = require('../../assets/About.webp')
 
   return (
-    <div className='flex flex-col md:grid md:grid-cols-2 items-center justify-center gap-2 pt-12 pb-8 md:pt-28'>
+    <div className='flex flex-col md:grid md:grid-cols-2 items-center justify-center gap-2 pt-12 pb-8 md:pt-28' id='aboutUs'>
       <div className='flex items-center justify-center'>
       <div className='flex flex-col gap-3 text-justify p-3 md:max-w-[600px]'>
         <h1 className='flex justify-center items-center text-5xl font-bold uppercase'>About Us</h1>

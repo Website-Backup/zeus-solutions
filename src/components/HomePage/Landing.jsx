@@ -53,7 +53,7 @@ const Landing = () => {
           }
         </div>
         <div>
-            <a href='/#'><AiOutlineDown size={70} color='white'></AiOutlineDown></a>
+            <a href='/#aboutUs'><AiOutlineDown size={70} color='white'></AiOutlineDown></a>
         </div>
     </div>
   </div>
