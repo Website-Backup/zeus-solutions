@@ -10,9 +10,9 @@ const Project = () => {
         <div className='py-10'>
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:grid-rows-2 mx-10 gap-5 gap-x-4 gap-y-4 items-stretch justify-items-stretch text-center'>
             {
-                projectCategory.map((i)=>{
+                projectCategory.map((i,index)=>{
                     return(
-                    <div className='relative'>
+                    <div className='relative' key={index}>
                         <a href={i.url}>
                             <img src={require(`../../assets/ProjectCategory/${i.img}`)} alt={i.img} className=' max-h-[200px] min-h-full hover:opacity-80 hover:scale-105 transition duration-500 cursor-pointer w-full' />
                             <h1 className='centered child text-white text-xs md:text-base bg-gray-950 p-1 font-semibold'>{i.Category}</h1>

@@ -13,7 +13,7 @@ const ImageSlider = ({images}) => {
           setFrame(Frame+1)
         }
         return ()=>clearTimeout(timer)
-      },5000)
+      },3000)
     })
     
     const myStyle={

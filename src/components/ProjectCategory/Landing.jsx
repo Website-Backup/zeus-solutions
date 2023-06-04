@@ -14,9 +14,9 @@ const Landing = ({data}) => {
         </div>
         <ProjectNavbar></ProjectNavbar>
         <div className=' md:mx-20 mx-10 gap-5 pt-5'>
-            {data.details.map((i)=>{
+            {data.details.map((i,index)=>{
                 return(
-            <div className='m-5 bg-slate-300 md:mx-5 flex flex-col md:grid md:grid-cols-3 md:items-end items-center justify-items-center  shadow shadow-slate-400 rounded-tl-3xl rounded-br-3xl '>
+            <div className='m-5 bg-slate-300 md:mx-5 flex flex-col md:grid md:grid-cols-3 md:items-end items-center justify-items-center  shadow shadow-slate-400 rounded-tl-3xl rounded-br-3xl' key={index}>
                 <div className=' bg-white col-start-1 col-end-2 h-full w-full  flex flex-col justify-center items-center'>
                     <h1 className=' font-jost text-xl font-bold uppercase mb-4 pt-2'>{i.title}</h1>
                     <div className=' w-10 h-[3px] bg-yellow-400 mb-5'></div>

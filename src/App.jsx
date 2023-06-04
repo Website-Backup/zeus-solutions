@@ -9,7 +9,6 @@ import ProjectCategory from './pages/ProjectCategory';
 import { ProjectData } from './ProjectData';
 
 function App() {
-  console.log(ProjectData)
   return (
     <Routes>
       <Route path="/" element={<HomePage></HomePage>} />

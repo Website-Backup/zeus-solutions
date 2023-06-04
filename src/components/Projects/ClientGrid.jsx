@@ -11,10 +11,10 @@ const ClientGrid = () => {
         </div>  */}
     <div className='flex justify-center items-center w-full'>
     <div className='grid grid-cols-5 md:grid-cols-9 justify-center items-center gap-5'>
-        {Client.map((i)=>{
+        {Client.map((i,index)=>{
                 return(
                 
-                  <img className='w-16 md:w-28 lg:w-32 ' src={require(`../../assets/ZeusData/CUSTOMERS_LOGO/${i.img}`)} alt={i.img} />
+                  <img className='w-16 md:w-28 lg:w-32 ' src={require(`../../assets/ZeusData/CUSTOMERS_LOGO/${i.img}`)} alt={i.img} key={index} />
                 
                 );
               })}
