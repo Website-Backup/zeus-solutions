@@ -26,7 +26,7 @@ const ImageSlider = ({images}) => {
       };
 
   return (
-    <div className='flex justify-center items-center h-[250px] pb-2'>
+    <div className='flex justify-center items-center h-[250px] p-2'>
         <img src={`${require(`../../assets/ZeusData/${images[Frame]}`)}`} className='h-[100%]'></img>
     </div>
   )
