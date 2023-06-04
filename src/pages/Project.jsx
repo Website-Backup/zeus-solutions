@@ -7,6 +7,10 @@ import Footer from '../components/Footer'
 import Brochure from '../components/Brochure'
 
 const Project = () => {
+
+document.title='Projects';
+
+
   return (
     <div>
       <Brochure></Brochure>

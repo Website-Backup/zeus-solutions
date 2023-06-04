@@ -6,6 +6,9 @@ import ClientGrid from '../components/Projects/ClientGrid'
 import Brochure from '../components/Brochure'
 
 const Methods = () => {
+
+document.title='Methords';
+
   return (
     <div>
         <Brochure></Brochure>

@@ -64,27 +64,27 @@ const Working = () => {
         </div>
 
         <div className="flex justify-center items-center py-10">
-            <div className=" flex flex-col justify-start items-center gap-1 p-1 bg-[#e7e9e7] rounded-md shadow-md md:p-10">
+            <div className=" flex flex-col justify-start items-center gap-1 p-1 bg-[#fbfcf8] rounded-md shadow shadow-slate-700 md:p-10">
                 <BsFill1SquareFill></BsFill1SquareFill>
                 <h1 className="md:text-xl font-semibold">Initiate</h1>
             </div>
             <AiOutlineArrowRight size={15}></AiOutlineArrowRight>
-            <div className="flex flex-col justify-start items-center gap-1 p-1 bg-[#e7e9e7] rounded-md shadow-md md:p-10">
+            <div className="flex flex-col justify-start items-center gap-1 p-1 bg-[#fbfcf8] rounded-md shadow shadow-slate-700 md:p-10">
                 <BsFill2SquareFill></BsFill2SquareFill>
                 <h1 className="md:text-xl font-semibold w-100">Plan</h1>
             </div>
             <AiOutlineArrowRight size={15}></AiOutlineArrowRight>
-            <div className="flex flex-col justify-start items-center gap-1 p-1 bg-[#e7e9e7] rounded-md shadow-md md:p-10">
+            <div className="flex flex-col justify-start items-center gap-1 p-1 bg-[#fbfcf8] rounded-md shadow shadow-slate-700 md:p-10">
                 <BsFill3SquareFill></BsFill3SquareFill>
                 <h1 className="md:text-xl font-semibold">Execute</h1>
             </div>
             <AiOutlineArrowRight size={15}></AiOutlineArrowRight>
-            <div className="flex flex-col justify-start items-center gap-1 p-1 bg-[#e7e9e7] rounded-md shadow-md md:p-10">
+            <div className="flex flex-col justify-start items-center gap-1 p-1 bg-[#fbfcf8] rounded-md shadow shadow-slate-700 md:p-10">
                 <BsFill4SquareFill></BsFill4SquareFill>
                 <h1 className="md:text-xl font-semibold">Monitor</h1>
             </div>
             <AiOutlineArrowRight size={15}></AiOutlineArrowRight>
-            <div className="flex flex-col justify-start items-center gap-1 p-1 bg-[#e7e9e7] rounded-md shadow-md md:p-10">
+            <div className="flex flex-col justify-start items-center gap-1 p-1 bg-[#fbfcf8] rounded-md shadow shadow-slate-700 md:p-10">
                 <BsFill5SquareFill></BsFill5SquareFill>
                 <h1 className="md:text-xl font-semibold">Close</h1>
             </div>
@@ -95,8 +95,8 @@ const Working = () => {
         <div className='flex flex-col w-full justify-center'>
 
             <div className=' w-full p-2 md:p-5'>
-                <div className="flex flex-col justify-evenly items-start md:items-center bg-[#e7e9e7] rounded-md shadow-md md:grid md:grid-col-2 gap-2 py-5">
-                    <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 ">1.0 Initiate</h1>
+                <div className="flex flex-col justify-evenly items-start md:items-center bg-[#fbfcf8] rounded-xl shadow shadow-black md:grid md:grid-col-2 gap-2 py-5">
+                    <h1 className="ml-2 flex justify-center items-center text-3xl text-[#fbfcf8] bg-[#3b3b3b] w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 ">1.0 Initiate</h1>
 
                     <ol className='text-sm md:text-lg flex flex-col gap-2 md:w-[17vw] p-10' style={{ listStyleType: "dise" }}>
                         <li>Gather Requirements</li>                    
@@ -140,8 +140,8 @@ const Working = () => {
             </div>
 
             <div className=' w-full p-2 md:p-5'>
-                <div className="flex flex-col justify-evenly items-start md:items-center bg-[#e7e9e7] rounded-md shadow-md md:grid md:grid-col-2 gap-2 py-5">
-                    <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 ">2.0 Plans</h1>
+                <div className="flex flex-col justify-evenly items-start md:items-center bg-[#fbfcf8] rounded-xl shadow shadow-black md:grid md:grid-col-2 gap-2 py-5">
+                    <h1 className="ml-2 flex justify-center items-center text-3xl text-[#fbfcf8] bg-[#3b3b3b] w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 ">2.0 Plans</h1>
 
                     <ol className='text-sm md:text-lg flex flex-col gap-2 md:w-[17vw] p-10' style={{ listStyleType: "dise" }}>
                         <li>Plan Scope</li>                    
@@ -203,8 +203,8 @@ const Working = () => {
             </div>
 
             <div className=' w-full p-2 md:p-5'>
-                <div className="flex flex-col justify-evenly items-start md:items-center bg-[#e7e9e7] rounded-md shadow-md md:grid md:grid-col-2 gap-2 py-5">
-                    <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 ">3.0 Execute</h1>
+            <div className="flex flex-col justify-evenly items-start md:items-center bg-[#fbfcf8] rounded-xl shadow shadow-black md:grid md:grid-col-2 gap-2 py-5">
+                <h1 className="ml-2 flex justify-center items-center text-3xl text-[#fbfcf8] bg-[#3b3b3b] w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 ">3.0 Execute</h1>
 
                     <ol className='text-sm md:text-lg flex flex-col gap-2 md:w-[17vw] p-10' style={{ listStyleType: "dise" }}>
                         <li>Build System</li>                    
@@ -248,8 +248,8 @@ const Working = () => {
             </div>
 
             <div className=' w-full p-2 md:p-5'>
-                <div className="flex flex-col justify-evenly items-start md:items-center bg-[#e7e9e7] rounded-md shadow-md md:grid md:grid-col-2 gap-2 py-5">
-                    <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 ">4.0 Monitor</h1>
+                <div className="flex flex-col justify-evenly items-start md:items-center bg-[#fbfcf8] rounded-xl shadow shadow-black md:grid md:grid-col-2 gap-2 py-5">
+                    <h1 className="ml-2 flex justify-center items-center text-3xl text-[#fbfcf8] bg-[#3b3b3b] w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 ">4.0 Monitor</h1>
 
                     <ol className='text-sm md:text-lg flex flex-col gap-2 md:w-[17vw] p-10' style={{ listStyleType: "dise" }}>
                         <li>Internal Testing</li>                    
@@ -299,8 +299,8 @@ const Working = () => {
             </div>
 
             <div className=' w-full p-2 md:p-5'>
-                <div className="flex flex-col justify-evenly items-start md:items-center bg-[#e7e9e7] rounded-md shadow-md md:grid md:grid-col-2 gap-2 py-5">
-                <h1 className="ml-2 flex justify-center items-center text-3xl text-white bg-gray-500 w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 "> 5.0 Close</h1>
+            <div className="flex flex-col justify-evenly items-start md:items-center bg-[#fbfcf8] rounded-xl shadow shadow-black md:grid md:grid-col-2 gap-2 py-5">
+                <h1 className="ml-2 flex justify-center items-center text-3xl text-[#fbfcf8] bg-[#3b3b3b] w-[200px] h-[50px] p-1 rounded col-start-1 col-end-3 "> 5.0 Close</h1>
 
                     <ol className='text-sm md:text-lg flex flex-col gap-2 md:w-[17vw] p-10' style={{ listStyleType: "dise" }}>
                         <li>Installation</li>                    

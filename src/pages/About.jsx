@@ -10,6 +10,10 @@ import Brochure from '../components/Brochure'
 
 
 const About = () => {
+
+document.title='About';
+
+
   return (
     <div>
       <Brochure></Brochure>

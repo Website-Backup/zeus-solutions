@@ -6,6 +6,7 @@ const myStyle={
     backgroundImage: `url(${background})` ,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
 }
 
 const Landing = () => {

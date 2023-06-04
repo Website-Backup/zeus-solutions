@@ -2,7 +2,7 @@ import React from 'react'
 
 const Second = () => {
     
-    const Image = require('../../assets/About.webp')
+    const Image = require('../../assets/ZeusNameBoard.jpg')
 
     return (
       <div className='flex flex-col md:grid md:grid-cols-2 items-center justify-center gap-2 pt-12 pb-8 md:pt-28'>
@@ -13,7 +13,7 @@ const Second = () => {
           <p>We at Zeus always seek continuous improvements. The unique value propositions are a) proven track record of long-term support b) delivery focus on an integrated functional environment for the customer " E3M (Engineering, Manufacturing, Methods, and Maintenance)". We are well equipped with manufacturing floor space of more than 10000 square feet supported by 50 highly qualified and skilled employees at a general production capacity of 15 units per month. Our long serving customers include, 25 Years - Lucas TVS Group and 20 Years - Varroc Engineering, Igarashi Motors India Limited, and 15 Years – Bajaj Auto Ltd, TVS Motor, Bosch India.</p>
         </div>
         </div>
-        <div className='flex justify-center items-center w-full'>
+        <div className='flex justify-center items-center w-full p-8 md:p-10'>
           <img src={Image} alt="About Img" className='max-h-[600px]'></img>
         </div>
       </div>

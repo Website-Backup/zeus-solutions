@@ -9,6 +9,11 @@ import History from '../components/HomePage/History'
 import Brochure from '../components/Brochure'
 
 const HomePage = () => {
+
+
+document.title='Zeus Solutions | Industrial Automation and Test Equipments Solutions';
+
+
   return (
     <div>
         <Brochure></Brochure>

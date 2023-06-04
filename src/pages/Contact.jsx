@@ -4,6 +4,11 @@ import Footer from '../components/Footer'
 import Brochure from '../components/Brochure'
 
 const Contact = () => {
+
+
+document.title='Contact Us';
+
+
   return (
     <div>
       <Brochure></Brochure>

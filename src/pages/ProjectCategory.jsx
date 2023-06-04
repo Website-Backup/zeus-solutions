@@ -6,6 +6,9 @@ import Footer from '../components/Footer'
 import Brochure from '../components/Brochure'
 
 const ProjectCategory = ({data}) => {
+
+  document.title=`Zeus Solutions | Projects | ${data.title}`; 
+  
   return (
     <div>
         <Brochure></Brochure>
