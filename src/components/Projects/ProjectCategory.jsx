@@ -11,7 +11,7 @@ const ProjectCategory = () => {
                 <div className='relative'>
                     <a href={i.url}>
                         <img src={require(`../../assets/ProjectCategory/${i.img}`)} alt={i.img} className=' max-h-[400px] min-h-full hover:opacity-80 hover:scale-105 transition duration-500 cursor-pointer w-full' />
-                        <h1 className='centered child text-white text-xl bg-gray-950 py-2 px-3 font-semibold'>{i.Category}</h1>
+                        <h1 className='absolute bottom-0 left-0 md:w-full shadow shadow-white text-white text-xl bg-gray-950 py-2 px-3 font-semibold'>{i.Category}</h1>
                     </a>
                 </div>
                 

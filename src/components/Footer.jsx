@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div className='lg:w-[380px] text-lg flex flex-col gap-2'>
             <h1 className='text-3xl font-semibold'>Inquiries</h1>
-            <p>For any inquiries, questions or commendations, please call: +91 044 26880963 / 65154149 or fill out the following form</p>
+            <p>For any inquiries, questions or commendations, please call: +91 044 26880963 / +91 8870477753 or fill out the following form</p>
         </div>
         <div className='row-start-4 row-end-7'> 
             <h1 className='text-3xl font-semibold'>Contact Us</h1>
@@ -25,15 +25,15 @@ const Footer = () => {
         <div className='lg:w-[380px] text-lg flex flex-col gap-2'>
             <h1 className='text-3xl font-semibold'>Head Office</h1>
             <p>224/2, Nageswara Rao Road,Vanagaram Road, Athipet Chennai-600058</p>
-            <p>Phone : +91 044 26880963 / 65154149</p>
-            <p>Email : zeussolutions@dataone.in</p>
+            <p>Phone : +91 044 26880963 / +91 8870477753</p>
+            <p>Email : admin@zeusgroups.com</p>
         </div>
         <div>
             <img src={require('../assets/Make_In_India.png')}></img>
         </div>
         <div className='lg:w-[380px] text-lg flex flex-col gap-2'>
             <h1 className='text-3xl font-semibold'>Employment</h1>
-            <p>To apply for a job with Zeus Solutions, please send a cover letter together with your C.V. to: info@mysite.com</p>
+            <p>To apply for a job with Zeus Solutions, please send a cover letter together with your C.V. to: admin@zeusgroups.com</p>
         </div>
     </div>
     </div>

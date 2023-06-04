@@ -15,7 +15,7 @@ const Project = () => {
                     <div className='relative' key={index}>
                         <a href={i.url}>
                             <img src={require(`../../assets/ProjectCategory/${i.img}`)} alt={i.img} className=' max-h-[200px] min-h-full hover:opacity-80 hover:scale-105 transition duration-500 cursor-pointer w-full' />
-                            <h1 className='centered child text-white text-xs md:text-base bg-gray-950 p-1 font-semibold'>{i.Category}</h1>
+                            <h1 className='absolute bottom-0 left-0 md:w-full shadow shadow-white text-white text-[9px] md:text-[12px] lg:text-xl bg-gray-950 py-1 md:py-2 px-3 font-semibold'>{i.Category}</h1>
                         </a>
                     </div>
                     
