@@ -15,7 +15,7 @@ const About = () => {
       </div>
       </div>
       <div className='flex justify-center items-center w-full'>
-        <img src={Image} alt="About Img" className='max-h-[600px]'></img>
+        <img src={Image} alt="About Img" className='max-h-[600px]' loading='lazy'></img>
       </div>
     </div>
   )
