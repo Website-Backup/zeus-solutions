@@ -14,14 +14,14 @@ jobs:
       - run: npm ci --force && CI=false npm run build --force
       - name: Set up environment variables
         run: |
-          echo "REACT_APP_apiKey=${{ secrets.REACT_APP_APIKEY }}" >> $GITHUB_ENV
-          echo "REACT_APP_authDomain=${{ secrets.REACT_APP_AUTHDOMAIN }}" >> $GITHUB_ENV
-          echo "REACT_APP_databaseURL=${{ secrets.REACT_APP_DATABASEURL }}" >> $GITHUB_ENV
-          echo "REACT_APP_projectId=${{ secrets.REACT_APP_PROJECTID }}" >> $GITHUB_ENV
-          echo "REACT_APP_storageBucket=${{ secrets.REACT_APP_STORAGEBUCKET }}" >> $GITHUB_ENV
-          echo "REACT_APP_messagingSenderId=${{ secrets.REACT_APP_MESSAGINGSENDERID }}" >> $GITHUB_ENV
-          echo "REACT_APP_appId=${{ secrets.REACT_APP_APPID }}" >> $GITHUB_ENV
-          echo "REACT_APP_measurementId=${{ secrets.REACT_APP_MEASUREMENTID }}" >> $GITHUB_ENV
+          echo "REACT_APP_REACT_APP_APIKEY=${{ secrets.REACT_APP_APIKEY }}" >> $GITHUB_ENV
+          echo "REACT_APP_AUTHDOMAIN=${{ secrets.REACT_APP_AUTHDOMAIN }}" >> $GITHUB_ENV
+          echo "REACT_APP_DATABASEURL=${{ secrets.REACT_APP_DATABASEURL }}" >> $GITHUB_ENV
+          echo "REACT_APP_PROJECTID=${{ secrets.REACT_APP_PROJECTID }}" >> $GITHUB_ENV
+          echo "REACT_APP_STORAGEBUCKET=${{ secrets.REACT_APP_STORAGEBUCKET }}" >> $GITHUB_ENV
+          echo "REACT_APP_MESSAGINGSENDERID=${{ secrets.REACT_APP_MESSAGINGSENDERID }}" >> $GITHUB_ENV
+          echo "REACT_APP_APPID=${{ secrets.REACT_APP_APPID }}" >> $GITHUB_ENV
+          echo "REACT_APP_MEASUREMENTID=${{ secrets.REACT_APP_MEASUREMENTID }}" >> $GITHUB_ENV
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
