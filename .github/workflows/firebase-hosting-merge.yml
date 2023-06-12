@@ -9,19 +9,22 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
+
+    env:
+      REACT_APP_REACT_APP_APIKEY: ${{ secrets.REACT_APP_APIKEY }}
+      REACT_APP_AUTHDOMAIN: ${{ secrets.REACT_APP_AUTHDOMAIN }}
+      REACT_APP_DATABASEURL: ${{ secrets.REACT_APP_DATABASEURL }}
+      REACT_APP_PROJECTID: ${{ secrets.REACT_APP_PROJECTID }}
+      REACT_APP_STORAGEBUCKET: ${{ secrets.REACT_APP_STORAGEBUCKET }}
+      REACT_APP_MESSAGINGSENDERID: ${{ secrets.REACT_APP_MESSAGINGSENDERID }}
+      REACT_APP_APPID: ${{ secrets.REACT_APP_APPID }}
+      REACT_APP_MEASUREMENTID: ${{ secrets.REACT_APP_MEASUREMENTID }}
+
     steps:
       - uses: actions/checkout@v3
       - run: npm ci --force && CI=false npm run build --force
       - name: Set up environment variables
-        env:
-          REACT_APP_REACT_APP_APIKEY: ${{ secrets.REACT_APP_APIKEY }}
-          REACT_APP_AUTHDOMAIN: ${{ secrets.REACT_APP_AUTHDOMAIN }}
-          REACT_APP_DATABASEURL: ${{ secrets.REACT_APP_DATABASEURL }}
-          REACT_APP_PROJECTID: ${{ secrets.REACT_APP_PROJECTID }}
-          REACT_APP_STORAGEBUCKET: ${{ secrets.REACT_APP_STORAGEBUCKET }}
-          REACT_APP_MESSAGINGSENDERID: ${{ secrets.REACT_APP_MESSAGINGSENDERID }}
-          REACT_APP_APPID: ${{ secrets.REACT_APP_APPID }}
-          REACT_APP_MEASUREMENTID: ${{ secrets.REACT_APP_MEASUREMENTID }}
+
 
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
