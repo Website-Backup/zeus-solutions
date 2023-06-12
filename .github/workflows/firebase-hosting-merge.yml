@@ -2,7 +2,7 @@
 # https://github.com/firebase/firebase-tools
 
 name: Deploy to Firebase Hosting on merge
-'on':
+on:
   push:
     branches:
       - main
@@ -12,9 +12,19 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: npm ci --force && CI=false npm run build --force
+      - name: Set up environment variables
+        run: |
+          echo "REACT_APP_authDomain=${{ secrets.REACT_APP_authDomain }}" >> $GITHUB_ENV
+          echo "REACT_APP_databaseURL=${{ secrets.REACT_APP_databaseURL }}" >> $GITHUB_ENV
+          echo "REACT_APP_projectId=${{ secrets.REACT_APP_projectId }}" >> $GITHUB_ENV
+          echo "REACT_APP_storageBucket=${{ secrets.REACT_APP_storageBucket }}" >> $GITHUB_ENV
+          echo "REACT_APP_messagingSenderId=${{ secrets.REACT_APP_messagingSenderId }}" >> $GITHUB_ENV
+          echo "REACT_APP_appId=${{ secrets.REACT_APP_appId }}" >> $GITHUB_ENV
+          echo "REACT_APP_measurementId=${{ secrets.REACT_APP_measurementId }}" >> $GITHUB_ENV
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ZEUS_SOLUTIONS }}'
           channelId: live
           projectId: zeus-solutions
+

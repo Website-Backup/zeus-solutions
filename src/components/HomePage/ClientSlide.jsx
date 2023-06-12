@@ -10,19 +10,19 @@ const ClientsSlide = () => {
         {/* 2. */}
         <div className="w-[200%] flex items-center h-36 justify-around absolute left-0 animate gap-20 md:animate">
             {
-              Client.map((i)=>{
+              Client.map((i,index)=>{
                 return(
                 
-                  <img className='w-[130px]' src={require(`../../assets/ZeusData/CUSTOMERS_LOGO/${i.img}`)} alt={i.img} />
+                  <img key={index} className='w-[130px]' src={require(`../../assets/ZeusData/CUSTOMERS_LOGO/${i.img}`)} alt={i.img} />
                 
                 );
               })
             }
             {
-              Client.map((i)=>{
+              Client.map((i,index)=>{
                 return(
                 
-                  <img className='w-[130px]' src={require(`../../assets/ZeusData/CUSTOMERS_LOGO/${i.img}`)} alt={i.img} />
+                  <img key={index} className='w-[130px]' src={require(`../../assets/ZeusData/CUSTOMERS_LOGO/${i.img}`)} alt={i.img} />
                 
                 );
               })

@@ -8,14 +8,14 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDEkE4DGI15yNnlkozo_A2ZOLOUwzeJphM",
-  authDomain: "zeus-solutions.firebaseapp.com",
-  databaseURL: "https://zeus-solutions-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "zeus-solutions",
-  storageBucket: "zeus-solutions.appspot.com",
-  messagingSenderId: "291720212725",
-  appId: "1:291720212725:web:edfb237f4c086889df55bc",
-  measurementId: "G-QS9YCMBJNE"
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain: process.env.REACT_APP_authDomain,
+  databaseURL: process.env.REACT_APP_databaseURL,
+  projectId: process.env.REACT_APP_projectId,
+  storageBucket: process.env.REACT_APP_storageBucke,
+  messagingSenderId: process.env.REACT_APP_messagingSenderId,
+  appId: process.env.REACT_APP_appId,
+  measurementId: process.env.REACT_APP_measurementId 
 };
 
 // Initialize Firebase
